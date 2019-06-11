@@ -1,0 +1,6 @@
+version: '3'
+services:
+   cats:
+      image: bharathhj/catsv3.18 #changes to cats page
+      ports:
+        - 8443:5000 
